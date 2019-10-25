@@ -34,3 +34,37 @@ else if(Math.round(result)=== 0 && gender ==="female") {
 else if(Math.round(result)=== 1 && gender ==="male") {
     doucument.getElementById("output").innerHTML = ("You were born on" + dayOfTheWeek[1]+ " and your Akan Name is" + maleNames[1])
   }
+  else if(Math.round(result)=== 1 && gender ==="female") {
+    doucument.getElementById("output").innerHTML = ("You were born on" + dayOfTheWeek[1]+ " and your Akan Name is" + femaleNames[1])
+  }
+  else if(Math.round(result)=== 2 && gender ==="male") {
+    doucument.getElementById("output").innerHTML = ("You were born on" + dayOfTheWeek[2]+ " and your Akan Name is" + maleNames[2])
+  }
+  else if(Math.round(result)=== 2 && gender ==="female") {
+    doucument.getElementById("output").innerHTML = ("You were born on" + dayOfTheWeek[2]+ " and your Akan Name is" + femaleNames[2])
+  }
+  else if(Math.round(result)=== 3 && gender ==="male") {
+    doucument.getElementById("output").innerHTML = ("You were born on" + dayOfTheWeek[3]+ " and your Akan Name is" + maleNames[3])
+  }
+  else if(Math.round(result)=== 3 && gender ==="female") {
+    doucument.getElementById("output").innerHTML = ("You were born on" + dayOfTheWeek[3]+ " and your Akan Name is" + femaleNames[3])
+  }
+  else if(Math.round(result)=== 4 && gender ==="male") {
+    doucument.getElementById("output").innerHTML = ("You were born on" + dayOfTheWeek[4]+ " and your Akan Name is" + maleNames[4])
+  }
+  else if(Math.round(result)=== 4 && gender ==="female") {
+    doucument.getElementById("output").innerHTML = ("You were born on" + dayOfTheWeek[4]+ " and your Akan Name is" + femaleNames[4])
+  }
+  else if(Math.round(result)=== 5 && gender ==="male") {
+    doucument.getElementById("output").innerHTML = ("You were born on" + dayOfTheWeek[5]+ " and your Akan Name is" + maleNames[5])
+  }
+  else if(Math.round(result)=== 5 && gender ==="female") {
+    doucument.getElementById("output").innerHTML = ("You were born on" + dayOfTheWeek[5]+ " and your Akan Name is" + femaleNames[5])
+  }
+  else if(Math.round(result)=== 6 && gender ==="male") {
+    doucument.getElementById("output").innerHTML = ("You were born on" + dayOfTheWeek[6]+ " and your Akan Name is" + maleNames[6])
+  }
+  else if(Math.round(result)=== 6 && gender ==="female") {
+    doucument.getElementById("output").innerHTML = ("You were born on" + dayOfTheWeek[6]+ " and your Akan Name is" + femaleNames[6])
+  }
+  
