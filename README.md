@@ -19,3 +19,7 @@
  This is the landing site of the page. It shows you all the details of the required form.
  ## BDD 
  - This project will help the user to get to know their Akan name by correctly filling in their details. 
+ ## Technologies used
+ - HTML
+ - CSS
+ - JavaScript
