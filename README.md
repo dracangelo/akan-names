@@ -15,3 +15,4 @@
 - To know your Akan name click on this link https://dracangelo.github.io/akan-names/
 ## Screenshots
 <img src="images/hey.jpg" width=600px height=600px>
+ This is the landing site of the page. It shows you all the details of the required form.
