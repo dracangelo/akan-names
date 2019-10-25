@@ -22,67 +22,29 @@
         name from this system, even if they also have an English or Christian
         name
       </p>
-
       <form>
-        <div class="form-group">
-          <label for="name">First name:</label>
-          <input
-            type="text"
-            class="form-control"
-            id="name"
-            aria-describedby="name"
-            placeholder="Please Enter Your first Name"
-          />
+        <div>
+            <div>
+                <label>Enter the Century Of birth</label>
+                <input type="number" class="form-control" id="century" placeholder="For example 20 or 21" required
+                    min="19" max="22">
+                <label>Year</label>
+                <input type="number" class="form-control" id="year" placeholder="Enter the year." required
+                    min="1980" max="2019">
+                <label>Month</label>
+                <input type="number" class="form-control" id="month" placeholder="Enter the month" required min="1"
+                    max="12">
+                <label>Day</label>
+                <input type="text" class="form-control" id="day" placeholder="Enter the day" required min="1"
+                    max="31">
+            </div>
+            <div class="ggg">
+                <label>Gender</label><br>
+                <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+            </div>
+            <button type="button" class="btn btn-outline-info btn-lg">Submit</button>
         </div>
-        <div class="form-group">
-          <label for="name">Last name:</label>
-          <input
-            type="text"
-            class="form-control"
-            id="name"
-            aria-describedby="name"
-            placeholder="Please Enter Your last Name"
-          />
-        </div>
-        <div class="form-group">
-          <label for="number">Date of birth</label>
-          <input
-            type="number"
-            class="form-control"
-            id="number"
-            placeholder="date of birth "
-            min="1"
-            max="31"
-          />
-        </div>
-        <div class="form-group">
-          <label for="number">month of Birth </label>
-          <input
-            type="number"
-            class="form-control"
-            id="number"
-            placeholder="month of birth"
-            min="1"
-            max="12"
-          />
-        </div>
-        <div class="form-group">
-          <label for="year">Year</label>
-          <input
-            type="year"
-            class="form-control"
-            id="days"
-            placeholder="please Enter Year of Birth"
-          />
-        </div>
-        <input type="radio" name="gender" value="male" checked> Male<br>
-        <input type="radio" name="gender" value="female"> Female<br>
-        <button type="submit" class="btn btn-primary">Submit</button>
-        <footer class="footer">
-          <i class="far fa-copyright">copyright</i>
-        </footer>
-      </form>
-    </div>
     <script src="js/script.js"></script>
   </body>
 </html>

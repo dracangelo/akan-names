@@ -1,1 +1,3 @@
 alert ("welcome!!!");
+
+var akanMale = 
