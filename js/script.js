@@ -10,4 +10,12 @@ var dayOfWeek = Math.trunc((((century / 4) - 2 * century - 1) + ((5 * year / 4))
 
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+// var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+// }
+
+if (male1.checked == true) {
+    switch (dayOfWeek) {
+        case 0:
+            alert("Your Akan name is :" + maleNames)[dayOfWeek];
+    }
 }
