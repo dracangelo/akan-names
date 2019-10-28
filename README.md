@@ -9,7 +9,8 @@
 - Deploying
 - Screenshots
 - BDD
-- technologies used
+- Technologies used
+- Acknowledgements
 ## Description
 - This web helps you to know your akan name 'day name' according to the day of the week you were born. Akan names have further meanings concerning the soul and character of the person.
 ## Deploying
@@ -23,3 +24,5 @@
  - HTML
  - CSS
  - JavaScript
+ ## Acknowledgements
+ - I would like to thank skimanikings and paddington for their immense help during the project.
